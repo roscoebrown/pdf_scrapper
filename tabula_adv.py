@@ -72,7 +72,11 @@ New goal try and orgainze the index data into a list so I can used those indexes
 '''
 
 #pd.set_option("display.max_rows", None)
-#DataBase.to_csv('Test.csv',header=header)
-print(DataBase)
+#DataBase.to_csv('Test.csv',header=header
 
+if __name__ == "__main__":
+    try:
+        print(database)
+    finally:
+        print("Complete")
 
